@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: My Woo All In One\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-20 00:00:00+00:00\n"
+"PO-Revision-Date: 2026-03-20 00:00:00+00:00\n"
+"Last-Translator: Admin\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit\n"
+
+msgid "My Woo All In One"
+msgstr "My Woo All In One"
+
+msgid "Custom WooCommerce framework with full control."
+msgstr "Bộ khung WooCommerce tuỳ chỉnh với toàn quyền kiểm soát."
+
+msgid "My Woo AIO"
+msgstr "My Woo AIO"
+
+msgid "Modules"
+msgstr "Các tính năng"
+
+msgid "Module"
+msgstr "Tính năng (Module)"
+
+msgid "Status"
+msgstr "Trạng thái"
+
+msgid "Enabled"
+msgstr "Đã bật"
+
+msgid "Permalink Settings"
+msgstr "Cài đặt Đường dẫn (Permalink)"
+
+msgid "Category Page Optimization"
+msgstr "Tối ưu trang Danh mục"
+
+msgid "Tags Enhancements"
+msgstr "Cải thiện Thẻ (Tags)"
+
+msgid "Load More Button"
+msgstr "Nút Tải thêm"
+
+msgid "Price Engine"
+msgstr "Công cụ tính Giá"
+
+msgid "Comment Image Upload"
+msgstr "Tải ảnh trong Bình luận"
+
+msgid "Change \"Read More\" text"
+msgstr "Đổi \"Read More\" thành \"Xem thêm\""
+
+msgid "\"Scroll to Top\" Button"
+msgstr "Nút \"Lên đầu trang\" (Scroll to Top)"
+
+msgid "Read More"
+msgstr "Xem thêm"
+
+msgid "Scroll to Top"
+msgstr "Lên đầu trang"

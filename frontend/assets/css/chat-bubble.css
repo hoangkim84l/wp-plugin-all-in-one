@@ -1,0 +1,153 @@
+/* Variables */
+:root {
+    --myaio-primary: #0073aa;
+    --myaio-primary-hover: #005177;
+    --myaio-bg: #ffffff;
+    --myaio-text: #333333;
+    --myaio-border: #e2e4e7;
+    --myaio-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Chat Widget Container */
+#myaio-chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Chat Button */
+#myaio-chat-button {
+    width: 60px;
+    height: 60px;
+    background-color: var(--myaio-primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: var(--myaio-shadow);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#myaio-chat-button:hover {
+    transform: scale(1.05);
+    background-color: var(--myaio-primary-hover);
+}
+
+#myaio-chat-button .dashicons {
+    color: #fff;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Chat Popup */
+#myaio-chat-popup {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 320px;
+    background: var(--myaio-bg);
+    border-radius: 12px;
+    box-shadow: var(--myaio-shadow);
+    overflow: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform-origin: bottom right;
+    border: 1px solid var(--myaio-border);
+}
+
+#myaio-chat-popup.myaio-hidden {
+    opacity: 0;
+    transform: scale(0);
+    pointer-events: none;
+}
+
+/* Header */
+.myaio-chat-header {
+    background-color: var(--myaio-primary);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myaio-chat-header h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#myaio-chat-close {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+}
+
+#myaio-chat-close:hover {
+    color: #f1f1f1;
+}
+
+/* Body */
+.myaio-chat-body {
+    padding: 20px;
+}
+
+#myaio-chat-form input,
+#myaio-chat-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid var(--myaio-border);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#myaio-chat-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+#myaio-chat-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--myaio-primary);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#myaio-chat-form button:hover {
+    background-color: var(--myaio-primary-hover);
+}
+
+#myaio-chat-response {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.myaio-success-msg {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.myaio-error-msg {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}

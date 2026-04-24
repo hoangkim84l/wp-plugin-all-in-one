@@ -14,6 +14,7 @@ class MyAIO_Module_Manager
         'comment-upload',
         'read-more',
         'scroll-to-top',
+        'chat-bubble',
     ];
 
     public static function get_all_modules()

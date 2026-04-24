@@ -1,0 +1,44 @@
+/* Styling for the Comment Image Upload Module */
+
+.myaio-comment-image-upload {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+}
+
+.myaio-comment-image-upload label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.myaio-comment-image-upload input[type="file"] {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.myaio-review-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.myaio-review-images .myaio-review-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.myaio-review-images .myaio-review-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

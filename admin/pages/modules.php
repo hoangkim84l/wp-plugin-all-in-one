@@ -13,6 +13,7 @@ $module_labels = [
     'comment-upload' => __('Comment Image Upload', 'my-woo-aio'),
     'read-more'      => __('Change "Read More" text', 'my-woo-aio'),
     'scroll-to-top'  => __('"Scroll to Top" Button', 'my-woo-aio'),
+    'chat-bubble'    => __('Bong bóng Chat', 'my-woo-aio'),
 ];
 ?>
 
